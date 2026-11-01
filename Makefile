@@ -7,7 +7,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LightsOut
 
-LightsOut_FILES = Tweak.x iokit.c
+LightsOut_FILES = Tweak.x iokit.c osversion.m
 LightsOut_CFLAGS = -fobjc-arc -Iheaders
 LightsOut_LDFLAGS = ./IOKit.tbd
 
